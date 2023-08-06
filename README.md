@@ -3,7 +3,7 @@
 
 -------
 This is a fork of the [abandoned Playbook](https://github.com/spantaleev/nextcloud-docker-ansible-deploy)  
-This fork aims using an external Nginx Proxy. All other paths like internal nginx-proxy should work, but aren't maintained well. You are free to help changing this and more ;)
+This fork aims using an external Nginx Proxy. All other paths like internal nginx-proxy should work, but aren't maintained well. You are free to help changing this and more ;)  
 If you are a beginner and just want use Nextcloud or want to use Traefik, I recommend the official successor [MASH playbook](https://github.com/mother-of-all-self-hosting/mash-playbook)!
 
 -------

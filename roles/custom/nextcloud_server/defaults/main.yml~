@@ -1,5 +1,5 @@
 # The fully-qualified name of your Nextcloud server (e.g. `nextcloud.example.com`)
-#nextcloud_server_fqn_nextcloud: ''
+
 
 nextcloud_nextcloud_systemd_required_services_list: ['docker.service']
 

@@ -92,7 +92,7 @@ server {
 			proxy_pass http://$backend;
 		{% else %}
 			{# Generic configuration for people to use outside of our container setup #}
-			proxy_pass http://127.0.0.1:{{ nextcloud_nginx_proxy_service_reach_local_port  }};
+			proxy_pass http://127.0.0.1:{{ nextcloud_apache_http_port_on_host }};
 		{% endif %}
 
 		# We disable request buffering in order to directly pass the request to the upstream server.

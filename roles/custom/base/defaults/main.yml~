@@ -1,6 +1,6 @@
 # Base directory that contains everything
 hostname_nextcloud: "{{ nextcloud_server_fqn_nextcloud }}"
-nextcloud_ssl_base_path: "{{ nextcloud_base_data_path }}/ssl"
+nextcloud_ssl_base_path: "/etc/letsencrypt"
 nextcloud_base_path: "/nextcloud"
 nextcloud_container_network: nextcloud
 

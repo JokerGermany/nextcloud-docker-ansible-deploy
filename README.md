@@ -56,9 +56,9 @@ When updating the playbook, refer to [the changelog](CHANGELOG.md) to catch up w
 
 ## Support
 
-- Matrix room: [#nextcloud-docker-ansible-deploy:devture.com](https://matrix.to/#/#nextcloud-docker-ansible-deploy:devture.com)
+- Matrix room: [#nextcloud-docker-ansible:matrix.org](https://matrix.to/#/#nextcloud-docker-ansible:matrix.org)
 
-- Github issues: [spantaleev/nextcloud-docker-ansible-deploy/issues](https://github.com/spantaleev/nextcloud-docker-ansible-deploy/issues)
+- Github issues: [JokerGermany/nextcloud-docker-ansible-deploy/issues](https://github.com/JokerGermany/nextcloud-docker-ansible-deploy/issues)
 
 
 ## Related

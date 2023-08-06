@@ -1,8 +1,10 @@
-[![Support room on Matrix](https://img.shields.io/matrix/nextcloud-docker-ansible-deploy:devture.com.svg?label=%23nextcloud-docker-ansible-deploy%3Adevture.com&logo=matrix&style=for-the-badge&server_fqdn=matrix.devture.com)](https://matrix.to/#/#nextcloud-docker-ansible-deploy:devture.com) [![donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/s.pantaleev/donate)
+[![Support room on Matrix #nextcloud-docker-ansible:matrix.org](https://img.shields.io/matrix/nextcloud-docker-ansible:matrix.org.svg?label=%23nextcloud-docker-ansible:matrix.org&logo=matrix&server_fqdn=matrix.org)](https://matrix.to/#/#nextcloud-docker-ansible:matrix.org)
+
 
 -------
-
-**WARNING**: this playbook has been **made obsolete** by the [MASH playbook](https://github.com/mother-of-all-self-hosting/mash-playbook), which also supports installing the [Nextcloud](https://github.com/mother-of-all-self-hosting/mash-playbook/blob/main/docs/services/nextcloud.md) and [Collabora Online](https://github.com/mother-of-all-self-hosting/mash-playbook/blob/main/docs/services/collabora-online.md) services. There's a [migration guide](CHANGELOG.md#this-playbook-has-been-absorbed-into-the-mash-playbook) in the changelog.
+This is a fork of the [abandoned Playbook](https://github.com/spantaleev/nextcloud-docker-ansible-deploy)  
+This fork aims using an external Nginx Proxy. All other paths like internal nginx-proxy should work, but aren't maintained well.  
+If you are a beginner and just want use Nextcloud or want to use Traefik, I recommend the official successor [MASH playbook](https://github.com/mother-of-all-self-hosting/mash-playbook)!
 
 -------
 
@@ -63,10 +65,4 @@ When updating the playbook, refer to [the changelog](CHANGELOG.md) to catch up w
 
 You may also be interested in these other playbooks:
 
-- [gitea-docker-ansible-deploy](https://github.com/spantaleev/gitea-docker-ansible-deploy) - for deploying a [Gitea](https://gitea.io) (self-hosted [Git](https://git-scm.com/) service) server
-
 - [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) - for deploying a fully-featured [Matrix](https://matrix.org) homeserver
-
-- [peertube-docker-ansible-deploy](https://github.com/spantaleev/peertube-docker-ansible-deploy) - for deploying a [PeerTube](https://joinpeertube.org/) video-platform server
-
-- [vaultwarden-docker-ansible-deploy](https://github.com/spantaleev/vaultwarden-docker-ansible-deploy) - for deploying a [Vaultwarden](https://github.com/dani-garcia/vaultwarden) password manager server (unofficial [Bitwarden](https://bitwarden.com/) compatible server)
